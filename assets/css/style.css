@@ -29,4 +29,10 @@
       width: 100%;
       clear: both;
       position: relative;
+  } 
+
+  #hero-image {
+      height: 100%;
+      width: 100%;
+      background: url(../images/hero-image.jpg);
   }
