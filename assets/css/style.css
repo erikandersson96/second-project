@@ -22,4 +22,11 @@
     -moz-osx-font-smoothing: grayscale;
   } 
 
-  
+  /* Hero image */ 
+
+  #clear-header {
+      height: 400px;
+      width: 100%;
+      clear: both;
+      position: relative;
+  }
