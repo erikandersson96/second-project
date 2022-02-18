@@ -1,16 +1,16 @@
 /* Copied from Pairfonts.com - Nunito for header and Roboto Mono for all other text */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Roboto+Mono:wght@300&display=swap");
 
-  /* Header size and Hero image */ 
+/* Logo */
 
-  #clear-header {
-      height: 600px;
-      width: 100%;
-      overflow: hidden;
-      
-  } 
+#logo {
+  height: 15px;
+}
+ 
 
-  #hero-image {
+/* Hero image */ 
+
+ #hero-image {
       height: 100%;
       width: 100%;
       background: url(../images/hero-image.jpg) no-repeat center center; 
@@ -19,12 +19,9 @@
 
   
 
-  /* Text for welcome message */
+  
 
-  #welcome-text {
-    padding-top: 50px;
-
-  }
+  
 
   
 
