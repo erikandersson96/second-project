@@ -44,158 +44,137 @@ body {
   display: inline-block;
 }
 
-  
+
 /* Interface for easy */ 
 
-.easy-color-one {
-  background-color: green;
+#easy-interface {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: inline-block;
+}
+
+/* Interface for medium */
+
+#medium-interface {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+
+/* Interface for hard */
+
+#hard-interface {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+} 
+
+
+/* Active and hover for all difficulty levels */ 
+
+
+
+  
+/* Four colors */ 
+
+.easy-color-one {
+  background-color: green;
+  
 } 
 
 .easy-color-two {
   background-color: blue;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 }
 
 .easy-color-three {
   background-color: yellow;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 }
 
 .easy-color-four {
   background-color: red;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 }
 
 
-/* Interface for Medium */
+/* Six colors */
 
 .medium-color-one {
   background-color: green;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 } 
 
 .medium-color-two {
   background-color: blue;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+ 
 }
 
 .medium-color-three {
   background-color: pink;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 }
 
 .medium-color-four {
   background-color: yellow;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 } 
 
 .medium-color-five {
   background-color: grey;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 } 
 
 .medium-color-six {
   background-color: red;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 }
 
 
-/* Interface for Hard */
+/* Eight colors */
   
 .hard-color-one { 
   background-color: green;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
 
 }
 
 .hard-color-two {
   background-color: blue;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 }
  
 .hard-color-three {
   background-color: brown;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+ 
 }
 
 .hard-color-four {
   background-color: pink;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+ 
 }
 
 .hard-color-five {
   background-color: yellow;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 }
 
 .hard-color-six {
   background-color: purple;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+ 
 }
 
 .hard-color-seven {
   background-color: grey;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+ 
 }
 
 .hard-color-eight {
   background-color: red;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
+  
 }
 
 
