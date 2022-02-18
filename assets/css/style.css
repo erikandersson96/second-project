@@ -51,6 +51,17 @@
   height: 50px;
   display: inline-block;
 }
+
+/* Middle cirkel for play button */
+
+.easy-middle {
+  background-color: grey;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
   
 
 /* Interface for Medium */
