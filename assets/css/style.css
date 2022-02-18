@@ -74,6 +74,7 @@ body {
 
 
 /* Hover and active for all difficulty levels */ 
+/* https://www.tutorialrepublic.com/faq/how-to-place-border-inside-of-div-element-using-css.php */
 
 #easy-interface:hover {
   box-shadow: inset 0px 0px 0px 3px black;
@@ -92,7 +93,7 @@ body {
 
 
 
-/* Four colors */ 
+/* Four color circkels for the game */ 
 
 .easy-color-one {
   background-color: green;
@@ -115,7 +116,7 @@ body {
 }
 
 
-/* Six colors */
+/* Six color cirkels for the game */
 
 .medium-color-one {
   background-color: green;
@@ -148,7 +149,7 @@ body {
 }
 
 
-/* Eight colors */
+/* Eight color cirkels for the game */
   
 .hard-color-one { 
   background-color: green;
