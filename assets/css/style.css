@@ -38,45 +38,54 @@ body {
 
 .middle-circkel {
   background-color: white;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
 }
 
 
 /* Interface for easy */ 
 
-#easy-interface {
+#easy-interface, .middle-circkel {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: inline-block;
+  cursor: pointer;
 }
 
 /* Interface for medium */
 
-#medium-interface {
+#medium-interface, .middle-circkel {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: inline-block;
+  cursor: pointer;
 }
 
 
 /* Interface for hard */
 
-#hard-interface {
+#hard-interface, .middle-circkel {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: inline-block;
+  cursor: pointer;
 } 
 
 
-/* Active and hover for all difficulty levels */ 
+/* Hover and active for all difficulty levels */ 
 
+#easy-interface:hover {
+  border: 1px black;
+}
 
+#medium-interface:hover {
+  border: 1px black;
+}
+
+#hard-interface:hover {
+  border: 1px black;
+}
 
   
 /* Four colors */ 
