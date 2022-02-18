@@ -1,11 +1,13 @@
 /* Copied from Pairfonts.com - Nunito for header and Roboto Mono for all other text */
 #logo {
     font-family: 'Nunito', sans-serif;
-    font-size: 100%;
+    font-size: 20px;
     font-weight: 900;
     line-height: 1.2;
     float: left;
     color: black; 
+    padding-top: 8px;
+    padding-bottom: 8px;
   
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -22,7 +24,7 @@
     -moz-osx-font-smoothing: grayscale;
   } 
 
-  /* Hero image */ 
+  /* Header size and Hero image */ 
 
   #clear-header {
       height: 600px;
@@ -34,5 +36,22 @@
   #hero-image {
       height: 100%;
       width: 100%;
-      background: url(../images/hero-image.jpg) no-repeat center center;
+      background: url(../images/hero-image.jpg) no-repeat center center; 
+
+      /* animation zoom effect forhero image */ 
+      animation-name: hero-zoom;
+      animation-duration: 5s;
+      animation-fill-mode: forwards;
+
+  } 
+
+  /* Zoom in effect for hero image */ 
+
+  @keyframes hero-zoom {
+    from{
+      transform: scale(1);
+    }
+    to{
+      transform: scale(1.1);
+    }
   }
