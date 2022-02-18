@@ -15,23 +15,9 @@
       width: 100%;
       background: url(../images/hero-image.jpg) no-repeat center center; 
 
-      /* animation zoom effect forhero image */ 
-      animation-name: hero-zoom;
-      animation-duration: 5s;
-      animation-fill-mode: forwards;
-
   } 
 
-  /* Zoom in effect for hero image */ 
-
-  @keyframes hero-zoom {
-    from{
-      transform: scale(1);
-    }
-    to{
-      transform: scale(1.1);
-    }
-  } 
+  
 
   /* Text for welcome message */
 
