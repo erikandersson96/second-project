@@ -25,6 +25,7 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  display: inline-block;
 } 
 
 .easy-color-two {
@@ -32,6 +33,7 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  display: inline-block;
 }
 
 .easy-color-three {
@@ -39,6 +41,7 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  display: inline-block;
 }
 
 .easy-color-four {
@@ -46,6 +49,7 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  display: inline-block;
 }
   
 
