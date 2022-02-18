@@ -5,6 +5,13 @@
 
 #logo {
   height: 15px;
+  font-family: nunito, sans-serif;
+} 
+
+/* All other text font */ 
+
+.other-text {
+  font-family: 'Roboto Mono', sans-serif;
 }
  
 
@@ -63,6 +70,7 @@
 }
 
   
+
 
 /* Interface for Medium */
 
