@@ -76,18 +76,22 @@ body {
 /* Hover and active for all difficulty levels */ 
 
 #easy-interface:hover {
-  border: 1px black;
+  box-shadow: inset 0px 0px 0px 3px black;
+  box-sizing: border-box;
 }
 
 #medium-interface:hover {
-  border: 1px black;
+  box-shadow: inset 0px 0px 0px 3px black;
+  box-sizing: border-box;
 }
 
 #hard-interface:hover {
-  border: 1px black;
+  box-shadow: inset 0px 0px 0px 3px black;
+  box-sizing: border-box;
 }
 
-  
+
+
 /* Four colors */ 
 
 .easy-color-one {
