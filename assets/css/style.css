@@ -43,36 +43,15 @@ body {
 }
 
 
-/* Interface for easy */ 
+/* Interface for middle, easy, medium, hard cirkels */ 
 
-#easy-interface, .middle-circkel {
+.middle-circkel, #easy-interface, #medium-interface, #hard-interface {
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: inline-block;
   cursor: pointer;
 }
-
-/* Interface for medium */
-
-#medium-interface, .middle-circkel {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-
-/* Interface for hard */
-
-#hard-interface, .middle-circkel {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  cursor: pointer;
-} 
 
 
 /* Hover and active for all difficulty levels */ 
