@@ -39,13 +39,16 @@ body {
 
 .middle-circkel {
   background-color: white; 
-  
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: inline-flex;
 }
 
 
-/* Interface for middle, easy, medium, hard cirkels */ 
+/* Interface for easy, medium, hard cirkels */ 
 
-.middle-circkel, #easy-interface, #medium-interface, #hard-interface {
+#easy-interface, #medium-interface, #hard-interface {
   border-radius: 50%;
   width: 80px;
   height: 80px;
