@@ -20,7 +20,8 @@ body {
 /* All other text font */ 
 
 .other-text {
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Roboto Mono', sans-serif; 
+  color: white;
 }
  
 
@@ -37,7 +38,8 @@ body {
 /* Middle cirkel for play button all difficulty levels */
 
 .middle-circkel {
-  background-color: white;
+  background-color: white; 
+  
 }
 
 
@@ -93,100 +95,100 @@ body {
 
 
 
-/* Four color circkels for the game */ 
+/* Four color circkels for the easy game level */ 
 
-.easy-color-one {
+.easy-one {
   background-color: green;
   
 } 
 
-.easy-color-two {
+.easy-two {
   background-color: blue;
   
 }
 
-.easy-color-three {
+.easy-three {
   background-color: yellow;
   
 }
 
-.easy-color-four {
+.easy-four {
   background-color: red;
   
 }
 
 
-/* Six color cirkels for the game */
+/* Six color cirkels for the medium game level */
 
-.medium-color-one {
+.medium-one {
   background-color: green;
   
 } 
 
-.medium-color-two {
+.medium-two {
   background-color: blue;
  
 }
 
-.medium-color-three {
+.medium-three {
   background-color: pink;
   
 }
 
-.medium-color-four {
+.medium-four {
   background-color: yellow;
   
 } 
 
-.medium-color-five {
+.medium-five {
   background-color: grey;
   
 } 
 
-.medium-color-six {
+.medium-six {
   background-color: red;
   
 }
 
 
-/* Eight color cirkels for the game */
+/* Eight color cirkels for the hard game level */
   
-.hard-color-one { 
+.hard-one { 
   background-color: green;
 
 }
 
-.hard-color-two {
+.hard-two {
   background-color: blue;
   
 }
  
-.hard-color-three {
+.hard-three {
   background-color: brown;
  
 }
 
-.hard-color-four {
+.hard-four {
   background-color: pink;
  
 }
 
-.hard-color-five {
+.hard-five {
   background-color: yellow;
   
 }
 
-.hard-color-six {
+.hard-six {
   background-color: purple;
  
 }
 
-.hard-color-seven {
+.hard-seven {
   background-color: grey;
  
 }
 
-.hard-color-eight {
+.hard-eight {
   background-color: red;
   
 }
