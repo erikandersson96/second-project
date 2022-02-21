@@ -1,3 +1,4 @@
+
 const easyOne = document.querySelector('.easy-one'); 
 const easyTwo = document.querySelector('.easy-two'); 
 const easyThree = document.querySelector('.easy-three'); 
@@ -20,5 +21,24 @@ const hardFive = document.querySelector('.hard-five');
 const hardSix = document.querySelector('.hard-six'); 
 const hardSeven = document.querySelector('.hard-seven'); 
 const hardEight = document.querySelector('.hard-eight'); 
+
+
+
+const sequenceEasy = [easyTwo, easyThree, easyOne, easyFour]; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
