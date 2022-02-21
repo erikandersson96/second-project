@@ -41,6 +41,14 @@ body {
     display: none;
   }
 
+
+/* Flash those circles that the computer choose to play (easy/medium/hard */ 
+
+.flash {
+  background-color: white;
+}
+
+
 /* Middle cirkel for play button in all difficulty levels */
 
 .middle-circkel {
@@ -60,14 +68,15 @@ body {
   height: 80px;
   display: inline-flex;
   cursor: pointer;
+  
 }
 
 
 /* Hover and active for all difficulty levels */ 
 /* https://www.tutorialrepublic.com/faq/how-to-place-border-inside-of-div-element-using-css.php */
 
-#easy-interface:hover, #medium-interface:hover, #hard-interface:hover  {
-  box-shadow: inset 0px 0px 0px 3px black;
+.circle-easy:hover, .circle-medium:hover, .circle-hard:hover  {
+  box-shadow: inset 0px 0px 0px 3px azure;
   box-sizing: border-box;
 }
 
