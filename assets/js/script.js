@@ -2,6 +2,11 @@
 let sequenceEasy = []; 
 let sequenceEasyHuman = []; 
 
+const easyStart = document.querySelector('.easy-start'); 
+
+
+easyStart.addEventListener('click', playGame); 
+
 
  
 

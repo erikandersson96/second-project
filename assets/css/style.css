@@ -35,6 +35,12 @@ body {
   } 
 
 
+  /* Hidden information text for easy game mode */
+
+  .hidden {
+    display: none;
+  }
+
 /* Middle cirkel for play button in all difficulty levels */
 
 .middle-circkel {
