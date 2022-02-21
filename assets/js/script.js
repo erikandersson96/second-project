@@ -12,18 +12,23 @@ function startEasyGame() {
     infoEasy.textContent = 'The computer will play a random sequence'; 
 } 
 
-easyStart.addEventListener('click', startGame); 
+easyStart.addEventListener('click', startEasyGame); 
 
-function nextPaceEasy() {
+function nextStepEasy() {
     const circleEasy = ['easy-one', 'easy-two', 'easy-three', 'easy-four']; 
     const randomEasy = circleEasy[Math.floor(Math.random() * circleEasy.length)];
+
+    return randomEasy; 
 }
 
 function nextRoundEasy() {
     level += 1; 
 
-    const nextSequenceEasy = ['easy-one', 'easy-two', 'easy-three', 'easy-four'] 
+    const nextSequenceEasy = [...sequenceEasy]; 
+    nextSequenceEasy.push(nextStepEasy()); 
 }; 
+
+
  
 
 
