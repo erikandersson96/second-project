@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 
-/* Logo */
+/* Logo */ 
 
 #logo {
   height: 15px;
@@ -35,18 +35,18 @@ body {
   } 
 
 
-  /* Hidden information text for easy game mode */
+  /* Hidden information text for easy game mode 
 
   .hidden {
     display: none;
   }
-
+  */
 
 /* Flash those circles that the computer choose to play (easy/medium/hard */ 
-
+/*
 .flash {
   background-color: white;
-}
+} */
 
 
 /* Middle cirkel for play button in all difficulty levels */
@@ -62,24 +62,29 @@ body {
 
 /* Interface for easy, medium, hard cirkels */ 
 
-#easy-interface, #medium-interface, #hard-interface {
+.easy, .medium, .hard {
   border-radius: 50%;
   width: 80px;
   height: 80px;
   display: inline-flex;
   cursor: pointer;
   
+} 
+
+
+.active {
+  background-color: white;
 }
 
 
 /* Hover and active for all difficulty levels */ 
 /* https://www.tutorialrepublic.com/faq/how-to-place-border-inside-of-div-element-using-css.php */
 
-/*
-.circle-easy:hover, .circle-medium:hover, .circle-hard:hover  {
+
+.easy:hover, .medium:hover, .hard:hover  {
   box-shadow: inset 0px 0px 0px 3px azure;
   box-sizing: border-box;
-} */
+} 
 
 
 
@@ -87,74 +92,25 @@ body {
 
 /* Green circle */
 .easy-one {
-  background-color: lightgreen; 
-  transition: 0.20s;
-} 
-
-.easy-one:hover, .easy-one:focus {
   background-color: green; 
-  box-shadow: inset 0px 0px 0px 3px green; 
-}
-
-.easy-one:active, .easy-one.flash {
-  box-shadow: inset 0px 0px 0px 3px darkgreen; 
-  background-color: darkgreen;
-  transform: translate(8px);
-}
+} 
 
 /* Blue circle */
 .easy-two {
-  background-color: #0000ff;
-  transition: 0.20s;
+  background-color: blue;
 } 
 
-.easy-two:hover, .easy-two:focus {
-  background-color: #0000e5; 
-  box-shadow: inset 0px 0px 0px 3px #0000e5; 
-}
-
-.easy-two:active, .easy-two.flash {
-  box-shadow: inset 0px 0px 0px 3px #0000cc; 
-  background-color: #0000cc;
-  transform: translate(8px); 
-
-}
 
 /* Yellow circle */
 .easy-three {
-  background-color: #fff71a;
-  transition: 0.20s;
+  background-color: gold;
 } 
-
-.easy-three:hover, .easy-three:focus {
-  background-color: #ffe81a; 
-  box-shadow: inset 0px 0px 0px 3px #ffe81a; 
-}
-
-.easy-three:active, .easy-three.flash {
-  box-shadow: inset 0px 0px 0px 3px #ffdd1a; 
-  background-color: #ffdd1a;
-  transform: translate(8px); 
-}
 
 
 /* Red circle */
 .easy-four {
-  background-color: #ff0000;
-  transition: 0.20s;
+  background-color: red;
 }
-
-.easy-three:hover, .easy-three:focus {
-  background-color: #e50000; 
-  box-shadow: inset 0px 0px 0px 3px #e50000; 
-}
-
-.easy-three:active, .easy-three.flash {
-  box-shadow: inset 0px 0px 0px 3px #cc0000; 
-  background-color: #cc0000;
-  transform: translate(8px); 
-}
-
 
 
 /* Six color cirkels for the medium game level */
