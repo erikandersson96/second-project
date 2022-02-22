@@ -1,10 +1,10 @@
 
-const easyOne = document.querySelector('.easy-one');
-const easyTwo = document.querySelector('.easy-two');
-const easyThree = document.querySelector('.easy-three');
-const easyFour = document.querySelector('.easy-four'); 
+const easyOne = document.querySelector('.easy-green');
+const easyTwo = document.querySelector('.easy-blue');
+const easyThree = document.querySelector('.easy-yellow');
+const easyFour = document.querySelector('.easy-red'); 
 
-const sequenceEasy = [easyOne, easyFour, easyTwo, easyThree]; 
+const sequenceEasy = [easyGreen, easyRed, easyBlue, easyYellow]; 
 
 const flashEasy = (easy) => {
     return new Promise((resolve, reject) => {
@@ -30,7 +30,7 @@ const mainEasy = async () => {
 
 mainEasy(); 
 
-console.log(sequenceEasy); 
+console.log(flashEasy); 
 
 
 

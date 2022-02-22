@@ -91,24 +91,24 @@ body {
 /* Four color circkels for the EASY game level */ 
 
 /* Green circle */
-.easy-one {
+.easy-green {
   background-color: green; 
 } 
 
 /* Blue circle */
-.easy-two {
+.easy-blue {
   background-color: blue;
 } 
 
 
 /* Yellow circle */
-.easy-three {
+.easy-yellow {
   background-color: gold;
 } 
 
 
 /* Red circle */
-.easy-four {
+.easy-red {
   background-color: red;
 }
 
