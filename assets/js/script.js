@@ -1,8 +1,8 @@
 
-const easyOne = document.querySelector('.easy-green');
-const easyTwo = document.querySelector('.easy-blue');
-const easyThree = document.querySelector('.easy-yellow');
-const easyFour = document.querySelector('.easy-red'); 
+const easyGreen = document.querySelector('.easy-green');
+const easyBlue = document.querySelector('.easy-blue');
+const easyYellow = document.querySelector('.easy-yellow');
+const easyRed = document.querySelector('.easy-red'); 
 
 const sequenceEasy = [easyGreen, easyRed, easyBlue, easyYellow]; 
 
